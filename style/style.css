@@ -1,0 +1,80 @@
+body{
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    font-size:20px;
+    margin:0;
+    padding:0;
+}
+.container{
+    background-color:white;
+    width:30%;
+    margin:10px auto;
+    padding:0;
+    box-sizing: border-box;
+    border-radius:1%;
+}
+header{
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    margin:0;
+    padding:0;
+    width:100%;
+    display:inline-block;
+    color:white;
+    text-align:center;
+}
+.container div{
+    width:100%;
+    margin:0;
+    padding:0 15px;
+    display:inline-block;
+    box-sizing: border-box;
+}
+
+.bill>p{
+    display:inline-block;
+}
+.bill #billamount{
+    display:inline-block;
+    padding:15px;
+    width:50%;
+    font-size:22px;
+    outline:none;
+    border:none;
+}
+.selectbox select{
+    width:50%;
+    font-size:16px;
+    padding:5px;
+    border:none;
+}
+.friends #numpeople{
+    display:inline-block;
+    padding:15px;
+    width:50%;
+    font-size:22px;
+    border:none;
+}
+.friends #people{
+    display:inline-block;
+}
+.lasttip{
+    padding:0 15px;
+    font-size:22px;
+    width:100%;
+    margin:0;
+    padding:0 15px;
+    display:inline-block;
+    box-sizing: border-box;
+}
+button{
+    width:100%;
+    border:1px solid #48c6ef;
+    padding:15px;
+    font-size:22px;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    color:#fff;
+}
+@media (max-width:1000px){
+    .container{
+        width:40%;
+    }
+}
